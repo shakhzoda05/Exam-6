@@ -72,7 +72,7 @@ function  Dashboard() {
               ))}
             </div>
           </div>
-          <Button  extraStyle={'w-[30%] h-[60px] rounded-[30px] mt-[350px] bg-[#152259]'} title={'Support'}/>
+          <Button  extraStyle={'w-[181px] h-[60px] rounded-[30px] mt-[350px] bg-blue-800'} title={'Support'}/>
         </div>
       </div>
     </div>
