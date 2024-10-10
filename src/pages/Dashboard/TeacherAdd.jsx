@@ -30,22 +30,23 @@ function TeacherAdd() {
   ];
 
   const classes = [
-    "1st Grade",
-    "2nd Grade",
-    "3rd Grade",
-    "4th Grade",
-    "5th Grade",
-    "6th Grade",
-    "7th Grade",
-    "8th Grade",
+    "N60",
+    "N61",
+    "N62",
+    "N63",
+    "N64",
+    "N65",
+    "N66",
+    "N67",
+    "N68",
+    "N69",
+    "N70",
+  
   ];
 
   const genders = [
     "Male",
     "Female",
-    "Non-binary",
-    "Other",
-    "Prefer not to say",
   ];
 
   function getImgSrc(e) {

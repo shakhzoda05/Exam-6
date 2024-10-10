@@ -1,12 +1,7 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
 import {
   About,
-  Billing,
   Dashboard,
-  Exam,
-  Features,
-  Settings,
-  Students,
   Teachers,
   UpdateTeachers,
 } from "../../pages/Dashboard";
@@ -39,11 +34,6 @@ export default function DashboardPage() {
           <Route path="/teachers/add" element={<TeacherAdd />} />
           <Route path="/teachers/:id" element={<About />} />
           <Route path="/teachers/update/:id" element={<UpdateTeachers />} />
-          <Route path="/students" element={<Students />} />
-          <Route path="/settings" element={<Settings />} />
-          <Route path="/billing" element={<Billing />} />
-          <Route path="/exams" element={<Exam />} />
-          <Route path="/features" element={<Features />} />
         </Routes>
       </div>
       <CustomModal
